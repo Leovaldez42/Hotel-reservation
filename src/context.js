@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const RoomContext = React.createContext();
 
-export default class RoomsProvider extends Component {
+export default class RoomProvider extends Component {
     state={
 
     }
@@ -17,4 +17,4 @@ export default class RoomsProvider extends Component {
 
 const RoomConsumer = RoomContext.Consumer;
 
-export{RoomsProvider, RoomConsumer, RoomContext}
+export{RoomProvider, RoomConsumer, RoomContext}
